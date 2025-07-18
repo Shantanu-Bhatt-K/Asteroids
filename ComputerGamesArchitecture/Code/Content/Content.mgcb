@@ -13,18 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin favpng_vector-graphics-clip-art-bullet.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:favpng_vector-graphics-clip-art-bullet.png;PowerUp.png
-
 #begin Background.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -91,6 +79,18 @@
 /processorParam:Quality=Best
 /build:Explosion.wav
 
+#begin favpng_vector-graphics-clip-art-bullet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:favpng_vector-graphics-clip-art-bullet.png;PowerUp.png
+
 #begin File.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
@@ -145,9 +145,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:ReturnButton.png
-
-#begin scores.xml
-/copy:scores.xml
 
 #begin StartButton.png
 /importer:TextureImporter

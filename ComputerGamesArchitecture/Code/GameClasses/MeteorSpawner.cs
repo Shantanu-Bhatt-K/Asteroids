@@ -35,7 +35,7 @@ namespace ComputerGraphicsArchitecture.GameClasses
            
             spawnCentre = (Vector2)b[0];
             player= (Player)b[1];
-            list = FileReader.ReadXML<List<MeteorData>>("MeteorTypes");
+            list = FileReader.ReadXML<List<MeteorData>>("C:\\Asteroids\\ComputerGamesArchitecture\\Code\\Content\\MeteorTypes.xml");
             foreach (MeteorData mete in list)
             {
                 Rock temp=new Rock();

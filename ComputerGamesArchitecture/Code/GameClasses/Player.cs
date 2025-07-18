@@ -39,10 +39,10 @@ namespace ComputerGraphicsArchitecture.GameClasses
             collider.Init(transform.position, new Vector2(renderer.Width/2,renderer.Height/2)*transform.scale,transform.rotation);
             collider.tag = "Player";
             body.Init(transform);
-            CommandManager.AddKeyboardBinding(Keys.Left, LeftInput);
-            CommandManager.AddKeyboardBinding(Keys.Up, UpInput);
-            CommandManager.AddKeyboardBinding(Keys.Right, RightInput);
-            CommandManager.AddKeyboardBinding(Keys.Down, DownInput);
+            CommandManager.AddKeyboardBinding(Keys.A, LeftInput);
+            CommandManager.AddKeyboardBinding(Keys.W, UpInput);
+            CommandManager.AddKeyboardBinding(Keys.D, RightInput);
+            CommandManager.AddKeyboardBinding(Keys.S, DownInput);
             CommandManager.AddKeyboardBinding(Keys.Space, Shoot);
             AudioManager.AddSFX("BulletSound");
         }

@@ -54,7 +54,7 @@ namespace ComputerGraphicsArchitecture.GameClasses.StateMachines
 
         public override void Exit()
         {
-            List<int> Scores = FileReader.ReadXML<List<int>>("scores");
+            List<int> Scores = FileReader.ReadXML<List<int>>("C:\\Asteroids\\ComputerGamesArchitecture\\Code\\Content\\scores.xml");
             if(Scores==null)
                 Scores = new List<int>();
             Scores.Add(player.Score);

@@ -41,7 +41,7 @@ namespace ComputerGraphicsArchitecture.GameClasses.StateMachines
         public override void Enter()
         {
             backgroundTexture = FileReader.ReadContent<Texture2D>("Background");
-            Scores = FileReader.ReadXML<List<int>>("scores");
+            Scores = FileReader.ReadXML<List<int>>("C:\\Asteroids\\ComputerGamesArchitecture\\Code\\Content\\scores.xml");
             TextFont = FileReader.ReadContent<SpriteFont>("Inlanders");
             returnButton.Init(new Vector2(_ctx._graphics.PreferredBackBufferWidth / 2, 9 * _ctx._graphics.PreferredBackBufferHeight / 10), "ReturnButton", new Vector2(0.05f, 0.05f));
             returnButton.OnClick += Return;

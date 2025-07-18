@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<ArrayOfMeteorData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+<MeteorData> 
+<scale> 
+<X>1</X> 
+<Y>1</Y> 
+</scale> 
+<type>0</type> 
+</MeteorData> 
+<MeteorData> 
+<scale> 
+<X>0.75</X> 
+<Y>0.75</Y> 
+</scale> 
+<type>1</type> 
+</MeteorData> 
+<MeteorData> 
+<scale> 
+<X>0.5</X> 
+<Y>0.5</Y> 
+</scale> 
+<type>2</type> 
+</MeteorData> 
+</ArrayOfMeteorData>
